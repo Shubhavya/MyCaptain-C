@@ -5,7 +5,7 @@ int checkPrime(int);
 int main()
 {
 	int x, flag;
-	printf("Enter a number to check prime or not: ");
+	printf("Enter a number: ");
 	scanf("%d", &x);
 	flag = checkPrime(x);
 	if (flag==1)
